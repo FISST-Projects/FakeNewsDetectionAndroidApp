@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTitleBar">#900C3F</color>
+    <color name="colorStatusBar">#FF600427</color>
+    <color name="colorStatusBar1">#0d7373</color>
+    <color name="colorButtonPressed">#e0e0e0</color>
+    <color name="colorText">#3d3d3d</color>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+</resources>
+
+

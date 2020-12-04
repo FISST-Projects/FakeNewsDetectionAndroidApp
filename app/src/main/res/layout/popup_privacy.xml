@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="20dp"
+    android:background="#3d3d3d"
+    android:scrollbars="vertical"
+    android:outlineAmbientShadowColor="@color/colorTitleBar"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarThumbVertical="@drawable/scrollbar"
+    android:fadeScrollbars="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Privacy Policy"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"/>
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@drawable/scrollbar"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/colorWhite"
+        android:text="We build a range of services that help millions of people
+daily to explore and interact with the world in new ways. Our services include:
+Google apps, sites, and devices, like Search, YouTube, and Google Home
+Platforms like the Chrome browser and Android operating system
+Products that are integrated into third-party apps and sites, like ads and embedded Google Maps
+You can use our services in a variety of ways to manage your privacy.
+For example, you can sign up for a Google Account if you want to create and
+manage content like emails and photos, or see more relevant search results.
+And you can use many Google services when you’re signed out or without creating
+ an account at all, like searching on Google or watching YouTube videos.
+  You can also choose to browse the web privately using Chrome in Incognito mode.
+  And across our services, you can adjust your privacy settings to control
+  what we collect and how your information is used.
+  To help explain things as clearly as possible, we’ve added examples,
+ explanatory videos, and definitions for key terms. And if you have any
+ questions about this Privacy Policy, you can contact us."/>
+    </LinearLayout>
+
+</ScrollView>

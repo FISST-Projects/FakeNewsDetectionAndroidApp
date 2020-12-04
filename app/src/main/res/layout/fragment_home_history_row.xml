@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="0.5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/press_button"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/historyDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_remove2"/>
+
+        <TextView
+            android:id="@+id/historyLink"
+            android:layout_gravity="center"
+            android:textColor="@color/selector_row"
+            android:text="https://medium.com/@bherbst/managing-the-fragment-back-stack-373e87e4ff62"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+         <TextView
+             android:id="@+id/historyDate"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="end"
+             android:textSize="10dp"
+             android:text="23/10/2020 23:45:67"/>
+
+</LinearLayout>
